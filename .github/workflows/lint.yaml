@@ -1,0 +1,33 @@
+name: Linter
+
+on:
+  pull_request:
+    branches:
+      - dev
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Шаг для клонирования репозитория
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Установка Node.js
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # Установка pnpm
+      - name: Install pnpm
+        run: npm install -g pnpm
+
+      # Установка зависимостей с помощью pnpm
+      - name: Install dependencies
+        run: pnpm install
+
+      # Запуск ESLint и Stylelint
+      - name: Run Linter
+        run: pnpm run lint

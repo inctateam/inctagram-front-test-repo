@@ -14,3 +14,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: kentaro-m/auto-assign-action@v2.0.0
+        with:
+          reviewers-number: 2
+          review_assign_method: 'roundRobin'
+          reviewers: |
+            apastan
+            blue-script
+            nooraiym
+            apelsinom
+            olesya-sh-dev
+            inctateam

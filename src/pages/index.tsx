@@ -28,7 +28,7 @@ export default function Home() {
         />
         <ol
           className={
-            'list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]'
+            'hi list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]'
           }
         >
           <li className={'mb-2'}>

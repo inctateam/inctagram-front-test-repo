@@ -26,6 +26,7 @@ export default function Home() {
           src={'https://nextjs.org/icons/next.svg'}
           width={180}
         />
+        <div>test 17</div>
         <ol
           className={
             'list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]'

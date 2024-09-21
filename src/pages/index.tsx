@@ -73,7 +73,7 @@ export default function Home() {
             rel={'noopener noreferrer'}
             target={'_blank'}
           >
-            Read our docs
+            Hi there
           </a>
         </div>
       </main>

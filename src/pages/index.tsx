@@ -61,7 +61,7 @@ export default function Home() {
               src={'https://nextjs.org/icons/vercel.svg'}
               width={20}
             />
-            Deploy now
+            Deploy now !!
           </a>
           <a
             className={
